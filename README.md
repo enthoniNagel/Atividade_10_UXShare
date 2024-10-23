@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# UXShare
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+UXShare é uma plataforma de rede social focada em discussões sobre experiência do usuário e design. O aplicativo permite que os usuários compartilhem posts, façam comentários e interajam com outros usuários.
 
-## Available Scripts
+## Descrição do Projeto
 
-In the project directory, you can run:
+### Criando uma rede social temática para compartilhar textos
 
-### `npm start`
+Nesta tarefa, você desenvolverá o modelo criado em sala de aula para estilizar um projeto de rede social. Sua tarefa é criar uma rede social temática para compartilhar textos, e você pode escolher o assunto para sua rede social.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Tarefa 1: Escolhendo um assunto
+Pense em um assunto que lhe interessa e sobre o qual você acredita que outras pessoas gostariam de discutir e compartilhar textos. Pode ser um hobby, um livro ou filme favorito, um gênero específico ou qualquer outra coisa pela qual você seja apaixonado.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Tarefa 2: Adicionando a funcionalidade de texto escrito pelo usuário
+Implemente um recurso que permita aos usuários inserir e exibir seus próprios textos escritos sobre o assunto escolhido. Isso pode incluir escrever postagens, compartilhar histórias ou discutir tópicos relacionados ao tema escolhido. Considere como os usuários inserirão seus textos e como esses textos serão exibidos para outros usuários na rede social.
 
-### `npm test`
+#### Tarefa 3: Estilizando a rede social
+Use o modelo desenvolvido em sala de aula como base e aplique o estilo para criar uma interface atraente e amigável para sua rede social temática usando o React Bootstrap. Considere o esquema de cores, o layout e o design geral para garantir que ele esteja alinhado com o tema escolhido e aprimore a experiência do usuário.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ao concluir essas tarefas, suba o projeto para o GitHub Pages e compartilhe sua página e seu repositório.
 
-### `npm run build`
+## Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Firebase**: Plataforma para desenvolvimento de aplicativos, incluindo Firestore para banco de dados em tempo real e Analytics para monitoramento.
+- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
+- **MagicUI**: Biblioteca de componentes para criar interfaces interativas e dinâmicas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Estrutura do Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
