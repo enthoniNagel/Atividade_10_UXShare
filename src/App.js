@@ -4,7 +4,7 @@ import { collection, addDoc, getDocs, deleteDoc, doc } from "firebase/firestore"
 import { Container, Form, Button, Card } from "react-bootstrap";
 import './App.css'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TextPost from './TextPost'; // Importando o componente TextPost
+import TextPost from './TextPost'; 
 
 function App() {
   const [nome, setNome] = useState('');
@@ -86,7 +86,7 @@ function App() {
 
       <h2>Posts Recentes</h2>
       {posts.map((post) => (
-        <TextPost key={post.id} post={post} excluirPost={excluirPost} /> // Usando o TextPost
+        <TextPost key={post.id} post={post} excluirPost={excluirPost} /> 
       ))}
     </Container>
   );

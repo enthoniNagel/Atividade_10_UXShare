@@ -1,8 +1,6 @@
-// src/components/MarqueeDemo.jsx
-
 import React from 'react';
-import PostCard from './PostCard'; // Verifique se o caminho está correto
-import Marquee from './magicui/marquee'; // Verifique se o caminho está correto
+import PostCard from './PostCard'; 
+import Marquee from './magicui/marquee'; 
 
 const MarqueeDemo = () => {
   return (

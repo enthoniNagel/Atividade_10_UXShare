@@ -8,7 +8,7 @@ function Chat() {
   const enviarMensagem = () => {
     if (mensagem.trim() !== '') {
       setChatMessages([...chatMessages, mensagem]);
-      setMensagem(''); // Limpar a caixa de texto após o envio
+      setMensagem(''); 
     }
   };
 

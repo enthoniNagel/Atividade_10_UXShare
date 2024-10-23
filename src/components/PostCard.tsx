@@ -1,5 +1,3 @@
-// src/components/PostCard.jsx
-
 import React from 'react';
 
 const PostCard = () => {
