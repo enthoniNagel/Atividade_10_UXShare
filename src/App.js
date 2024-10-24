@@ -51,7 +51,7 @@ function App() {
 
   return (
     <Container>
-      <h1>Rede Social de Livros</h1>
+      <h1>Rede Social UXShare</h1>
       <Form>
         <Form.Group controlId="formNome">
           <Form.Label>Nome</Form.Label>
