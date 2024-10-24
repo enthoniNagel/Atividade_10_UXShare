@@ -1,6 +1,9 @@
+// Importa as funções necessárias do SDK do Firebase
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
+import { getAnalytics } from "firebase/analytics";
+import { getFirestore } from "firebase/firestore"; // Importa o Firestore
 
+// Configuração do Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyDb6RyZN9rxzwcugIMwNBodVfMWYlZqkJE",
   authDomain: "uxshare-ff27b.firebaseapp.com",
@@ -11,6 +14,9 @@ const firebaseConfig = {
   measurementId: "G-VW73VPDN7P"
 };
 
+// Inicializa o Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-export { db };
+const analytics = getAnalytics(app); // Inicializa o Analytics
+const db = getFirestore(app); // Inicializa o Firestore
+
+export { db }; // Exporta a conexão do Firestore
