@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Atividade_10_UXShare/static/css/main.2ed32e80.css",
-    "main.js": "/Atividade_10_UXShare/static/js/main.ec550ae4.js",
+    "main.js": "/Atividade_10_UXShare/static/js/main.30d5a0f8.js",
     "index.html": "/Atividade_10_UXShare/index.html",
     "main.2ed32e80.css.map": "/Atividade_10_UXShare/static/css/main.2ed32e80.css.map",
-    "main.ec550ae4.js.map": "/Atividade_10_UXShare/static/js/main.ec550ae4.js.map"
+    "main.30d5a0f8.js.map": "/Atividade_10_UXShare/static/js/main.30d5a0f8.js.map"
   },
   "entrypoints": [
     "static/css/main.2ed32e80.css",
-    "static/js/main.ec550ae4.js"
+    "static/js/main.30d5a0f8.js"
   ]
 }
